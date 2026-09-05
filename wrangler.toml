@@ -1,10 +1,10 @@
-name = "rmt-api"
+name = "rmt-fullsite-repo"
 main = "src/index.ts"
 compatibility_date = "2024-11-01"
 
 # Non-secret config (safe to commit)
 [vars]
-SUPABASE_URL = "https://your-project.supabase.co"
+SUPABASE_URL = "https://msjdzebyljwylktmstzn.supabase.co"
 
 # Secrets — set these with `wrangler secret put NAME`, never commit them:
 #   wrangler secret put SUPABASE_SERVICE_ROLE_KEY
